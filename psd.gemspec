@@ -21,5 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'pry'
 
-  gem.add_dependency 'nokogiri'
+  # gem.add_dependency 'libv8', '~> 3.11.8'
+  gem.add_dependency 'therubyracer'
 end

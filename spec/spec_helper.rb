@@ -11,4 +11,7 @@ SimpleCov.start
 
 require 'psd'
 
+# Build coffee script
+system("cd #{Psd::PSDJS_ROOT} && cake build")
+
 TEST_FILE_PATH = File.join(Dir.pwd,'spec','test_data', 'viewer1_wireframe.psd')
